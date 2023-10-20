@@ -1,0 +1,14 @@
+### POST User
+POST http://localhost:8080/user/
+Content-Type: application/json
+
+{
+  "email": "joaozinho@email.com",
+  "name": "Joao teste",
+  "password": "123",
+  "grau_form": "Ensino fundamental",
+  "temp_form": "Dois anos",
+  "qtd_mat": 10,
+  "dat_inicio": "2023-10-18T16:45:00",
+  "dat_final": "2023-10-22T16:45:00"
+}
